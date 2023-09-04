@@ -1,0 +1,13 @@
+{
+    "name": "moti-is24-written-assessment-jaeung_kim",
+    "version": "1.0.0",
+    "description": "moti-is24-written-assessment-jaeung_kim",
+    "author": "Jaeung Kim",
+    "license": "ISC",
+    "scripts": {
+        "init": "cd frontend && npm i && cd ../backend && npm i",
+        "up": "docker compose up -d",
+        "down": "docker compose down",
+        "prune": "docker compose down --rmi all --volumes"
+    }
+}
